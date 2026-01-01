@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Kartikeya - Software Engineer</title>
+    <meta name="description"
+        content="Portfolio of Abhijeet Kartikeya, a Software Engineer specializing in Python, Data Analysis, and Automation">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Cursor Trail Particles -->
+    <div class="cursor-trail"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">AK</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">
+                        <span class="wave">👋</span>
+                        <span>Hello, I'm</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Abhijeet Kartikeya</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Aspiring AI/ML Engineer</h2>
+                    <p class="hero-description">
+                        Passionate about Machine Learning, Deep Learning, and Data Science. Building intelligent systems
+                        and exploring the fascinating world of AI. Experienced in Python, data analysis, and creating
+                        data-driven solutions with a focus on ML model development and deployment.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>View Projects</span>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/abhijeet-kartikeya-4626531ba/" target="_blank"
+                            class="social-link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <a href="https://github.com/abhijeetkartikeya" target="_blank" class="social-link"
+                            aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:abhijeetkartikeya@gmail.com" class="social-link" aria-label="Email">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <div class="profile-placeholder">
+                                <span class="profile-initials">AK</span>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <span>🤖 Machine Learning</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <span>🧠 Deep Learning</span>
+                        </div>
+                        <div class="floating-badge badge-3">
+                            <span>📊 Data Science</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm an aspiring AI/ML Engineer based in New Delhi, India, passionate about Machine Learning,
+                        Deep Learning, and Data Science. I'm on an exciting journey to master artificial intelligence
+                        and build intelligent systems that solve real-world problems.
+                    </p>
+                    <p class="about-description">
+                        My experience spans Python development, data analysis, and automation. I'm actively learning
+                        ML frameworks like TensorFlow and scikit-learn, building neural networks, and exploring
+                        computer vision and NLP. I combine strong programming fundamentals with a deep curiosity
+                        for AI innovation.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">1</div>
+                            <div class="stat-label">Publication</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <div class="info-label">Location</div>
+                            <div class="info-value">New Delhi, India</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <div class="info-label">Email</div>
+                            <div class="info-value">abhijeetkartikeya@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <div class="info-label">Phone</div>
+                            <div class="info-value">+91-8287559320</div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🎓</div>
+                        <div class="info-content">
+                            <div class="info-label">Education</div>
+                            <div class="info-value">B.Tech - Computer Science</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <p class="section-subtitle">Technologies & Tools I Master</p>
+            </div>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-card" data-category="languages">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">💻</div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">
+                            <span class="chip-icon">🐍</span>
+                            <span class="chip-name">Python</span>
+                            <span class="chip-level">Expert</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🗄️</span>
+                            <span class="chip-name">SQL</span>
+                            <span class="chip-level">Advanced</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">⚙️</span>
+                            <span class="chip-name">C#</span>
+                            <span class="chip-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Libraries & Frameworks -->
+                <div class="skill-card" data-category="frameworks">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">📚</div>
+                        <h3>Libraries & Frameworks</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">
+                            <span class="chip-icon">🐼</span>
+                            <span class="chip-name">Pandas</span>
+                            <span class="chip-level">Expert</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">📊</span>
+                            <span class="chip-name">Matplotlib</span>
+                            <span class="chip-level">Advanced</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🤖</span>
+                            <span class="chip-name">Scikit-learn</span>
+                            <span class="chip-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-card" data-category="databases">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">🗃️</div>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">
+                            <span class="chip-icon">💾</span>
+                            <span class="chip-name">Relational DB</span>
+                            <span class="chip-level">Expert</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🔍</span>
+                            <span class="chip-name">SQL Queries</span>
+                            <span class="chip-level">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-card" data-category="tools">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">🛠️</div>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">
+                            <span class="chip-icon">🐙</span>
+                            <span class="chip-name">GitHub</span>
+                            <span class="chip-level">Expert</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🐳</span>
+                            <span class="chip-name">Docker</span>
+                            <span class="chip-level">Intermediate</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">☁️</span>
+                            <span class="chip-name">AWS</span>
+                            <span class="chip-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning & Deep Learning -->
+                <div class="skill-card" data-category="ml">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">🤖</div>
+                        <h3>Machine Learning & AI</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">
+                            <span class="chip-icon">🔥</span>
+                            <span class="chip-name">TensorFlow</span>
+                            <span class="chip-level">Learning</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">⚡</span>
+                            <span class="chip-name">PyTorch</span>
+                            <span class="chip-level">Learning</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🧮</span>
+                            <span class="chip-name">NumPy</span>
+                            <span class="chip-level">Advanced</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">📓</span>
+                            <span class="chip-name">Jupyter</span>
+                            <span class="chip-level">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core Concepts -->
+                <div class="skill-card" data-category="concepts">
+                    <div class="skill-card-header">
+                        <div class="skill-icon">🧠</div>
+                        <h3>Core Concepts</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-chip">
+                            <span class="chip-icon">🌳</span>
+                            <span class="chip-name">Data Structures</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">⚡</span>
+                            <span class="chip-name">Algorithms</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🏗️</span>
+                            <span class="chip-name">OOP</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🔄</span>
+                            <span class="chip-name">SDLC</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🌐</span>
+                            <span class="chip-name">Networking</span>
+                        </div>
+                        <div class="skill-chip">
+                            <span class="chip-icon">🖥️</span>
+                            <span class="chip-name">OS Fundamentals</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="neural_network.png" alt="Neural Network Visualization" class="project-img">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">🧠</div>
+                        <div class="project-links">
+                            <a href="https://github.com/abhijeetkartikeya" target="_blank" class="project-link"
+                                aria-label="View Code">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Neural Network Visualization</h3>
+                    <p class="project-description">
+                        Interactive neural network visualization built with Python and TensorFlow. Demonstrates
+                        forward propagation through multiple layers with animated data flow. Includes visualization
+                        of weights, biases, and activation functions for educational purposes.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">Matplotlib</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ml_training.png" alt="ML Training Dashboard" class="project-img">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">📈</div>
+                        <div class="project-links">
+                            <a href="https://github.com/abhijeetkartikeya" target="_blank" class="project-link"
+                                aria-label="View Code">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">ML Model Training Dashboard</h3>
+                    <p class="project-description">
+                        Comprehensive machine learning model training tracker with real-time visualization of
+                        training/validation accuracy and loss. Built with scikit-learn and Keras, featuring
+                        hyperparameter tuning and model performance comparison.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Scikit-learn</span>
+                        <span class="tech-badge">Keras</span>
+                        <span class="tech-badge">Pandas</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="data_viz.png" alt="Data Visualization Dashboard" class="project-img">
+                    </div>
+                    <div class="project-header">
+                        <div class="project-icon">📊</div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1C2OFLF2BimUVJQ_3E6k9sB0kLnZM2Qqi/view?usp=sharing"
+                                target="_blank" class="project-link" aria-label="View Publication">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Data Analysis & Visualization</h3>
+                    <p class="project-description">
+                        Interactive data analysis dashboard featuring exploratory data analysis, statistical
+                        visualizations, and insights extraction. Includes clustering analysis, correlation
+                        heatmaps, and interactive plots using Plotly and Seaborn.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">Plotly</span>
+                        <span class="tech-badge">Seaborn</span>
+                    </div>
+                </div>
+
+                <!-- Research Publication -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📝</div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1C2OFLF2BimUVJQ_3E6k9sB0kLnZM2Qqi/view?usp=sharing"
+                                target="_blank" class="project-link" aria-label="View Publication">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Research Publication</h3>
+                    <p class="project-description">
+                        Procedural Obstacle Generation and Dynamic Chaos Mechanics in an Endless Runner Game: A Case
+                        Study of Zombie Runner Implemented in Unity. Published in International Research Journal of
+                        Modernisation in Engineering Technology and Science (IRJMETS), Vol. 7, Issue 11, Nov 2025.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Research</span>
+                        <span class="tech-badge">Game Development</span>
+                        <span class="tech-badge">Unity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My work journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Intern - Central Bank of India</h3>
+                            <span class="timeline-date">Jul 2025 - Sep 2025</span>
+                        </div>
+                        <p class="timeline-location">IT Department, New Delhi, India</p>
+                        <ul class="timeline-description">
+                            <li>Supported backend systems and application workflows following standard SDLC practices
+                            </li>
+                            <li>Automated data entry and reporting tasks using structured data processing, improving
+                                accuracy and efficiency</li>
+                            <li>Assisted in data management, system monitoring, and basic application debugging in a
+                                production environment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Education</h3>
+                            <span class="timeline-date">2022 - 2026</span>
+                        </div>
+                        <p class="timeline-location">GGSIPU, New Delhi</p>
+                        <ul class="timeline-description">
+                            <li><strong>B.Tech - Computer Science</strong> | CGPA: 8.2</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="achievements-section">
+                    <h3 class="achievements-title">Achievements & Certifications</h3>
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">🏆</div>
+                            <div class="achievement-content">
+                                <h4>Smart India Hackathon 2024 & 2025</h4>
+                                <p>Selected participant, presenting innovative tech solutions</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">🎯</div>
+                            <div class="achievement-content">
+                                <h4>Active Participant</h4>
+                                <p>Coding competitions, quizzes, and cultural events</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">💻</div>
+                            <div class="achievement-content">
+                                <h4>Web Development</h4>
+                                <p>Udemy | May 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <h3 class="form-title">Send Me a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:abhijeetkartikeya@gmail.com">abhijeetkartikeya@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+918287559320">+91-8287559320</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/abhijeet-kartikeya-4626531ba/"
+                                target="_blank">abhijeet-kartikeya</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/abhijeetkartikeya" target="_blank">abhijeetkartikeya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Abhijeet Kartikeya. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/abhijeet-kartikeya-4626531ba/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/abhijeetkartikeya" target="_blank">GitHub</a>
+                    <a href="mailto:abhijeetkartikeya@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
